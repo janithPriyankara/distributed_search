@@ -1,0 +1,12 @@
+{
+  "service_name": "http_service",
+  "service_host": "0.0.0.0",
+  "service_port": 8080,
+  "bootstrap_server_addr": "127.0.0.1:9000",
+  "udp_server_addr": "0.0.0.0:9000",
+  "additional_data": {
+    "version": "1.0.0",
+    "owner": "janithpriyankara",
+    "description": "Distributed HTTP service for file operations"
+  }
+}

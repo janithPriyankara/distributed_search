@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# VSCode settings
+.vscode/
+
+# Git directory
+.git/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Test output
+htmlcov/
+.coverage
+
+# Jupyter
+.ipynb_checkpoints/

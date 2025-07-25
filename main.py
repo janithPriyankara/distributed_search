@@ -24,7 +24,8 @@ def main():
     print(f"UDP server address: {get_property('udp_server_addr')}")
     register_node()
     update_ip_route_tables()
-    file_memory = FileMemory()
+    file_list_path = get_property("file_list_path") or "file_list.txt"
+    file_memory = FileMemory(file_list_path)
     # Example: file_memory.add_file('example.txt')
     
     # Start UDP server in a separate thread

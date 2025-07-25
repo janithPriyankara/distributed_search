@@ -4,6 +4,7 @@
   "service_port": 8080,
   "bootstrap_server_addr": "127.0.0.1:9000",
   "udp_server_addr": "0.0.0.0:9000",
+  "file_list_path": "file_list.txt",
   "additional_data": {
     "version": "1.0.0",
     "owner": "janithpriyankara",
